@@ -1,0 +1,1 @@
+push rbp mov rbp , rsp mov dword ptr [ rbp - num ] , edi mov eax , dword ptr [ rbp - num ] mov dword ptr [ rip + hexvar ] , eax nop pop rbp ret

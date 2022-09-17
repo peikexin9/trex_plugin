@@ -1,0 +1,3 @@
+/media/onetb/git_repos/trex_plugin/c++/CMakeFiles/rebuild_cache.dir
+/media/onetb/git_repos/trex_plugin/c++/CMakeFiles/edit_cache.dir
+/media/onetb/git_repos/trex_plugin/c++/CMakeFiles/c++.dir

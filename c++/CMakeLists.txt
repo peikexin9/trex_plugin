@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
+project(custom_ops)
+
+SET(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+add_executable(c++ pkg.cpp)
+target_link_libraries(c++ ${CMAKE_PREFIX_PATH}/lib/libtorch.so)
+target_link_libraries(c++ ${CMAKE_PREFIX_PATH}/lib/libtorch_cpu.so)
+target_link_libraries(c++ ${CMAKE_PREFIX_PATH}/lib/libc10.so)
+target_include_directories(c++ PRIVATE ${CMAKE_PREFIX_PATH}/include)
+set_property(TARGET c++ PROPERTY CXX_STANDARD 14)

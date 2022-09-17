@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/c++.dir/pkg.cpp.o  -o c++ -Wl,-rpath,/media/kexin/SSD/tools/libtorch/lib /media/kexin/SSD/tools/libtorch/lib/libtorch.so /media/kexin/SSD/tools/libtorch/lib/libtorch_cpu.so /media/kexin/SSD/tools/libtorch/lib/libc10.so 
